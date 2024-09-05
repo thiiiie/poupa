@@ -1,0 +1,25 @@
+.d-none {
+    display: none;
+}
+
+.progress-container {
+    position: relative;
+    height: 0.8rem;
+    border-radius: 0.4rem;
+    background: #222e3c;
+}
+
+.progress-container .progress {
+    height: 100%;
+    width: 0;
+    border-radius: 0.4rem;
+    background: #ff4754;
+    transition: width 0.4s ease;
+}
+
+.progress-container .progress span {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-weight: bold;
+}
